@@ -111,5 +111,5 @@ resource "aws_route53_record" "cf_system_app_alb_record_apps" {
 
 output "dns_name" {value = aws_lb.cf_system_app_alb.dns_name}
 output "lb_name"  {value = aws_lb.cf_system_app_alb.name }
-
+output "lb_target_group_name" { value = aws_lb_target_group.cf_system_app_alb_tg.name }
 

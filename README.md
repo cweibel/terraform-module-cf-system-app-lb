@@ -1,7 +1,7 @@
 # terraform-module-cf-system-app-lb
 Terraform to create the load balancer for CF system and app domains
 
-This module will spin an ALB for CF
+This module will spin an ALB for CF.
 
 Inputs - Required:
 
